@@ -594,8 +594,8 @@
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-4">
         <!-- Package 1: Premium Set -->
-        <article class="package-card reveal reveal-delay-1 rounded-sm overflow-hidden bg-white"
-          style="box-shadow:0 2px 20px rgba(11,30,58,0.06)">
+        <article class="package-card reveal reveal-delay-1 rounded-sm overflow-hidden bg-white flex flex-col
+          style=" box-shadow:0 2px 20px rgba(11,30,58,0.06)">
           <div class="relative overflow-hidden aspect-[4/3]">
             <img
               src="https://p16-cc-image-search-sign-sg.ibyteimg.com/tos-alisg-i-h9hire4aei-sg/image/c63407fc213239398d59b73f823bc745~tplv-h9hire4aei-image.jpeg?rk3s=feb11e32&x-expires=1805204933&x-signature=qo2Kxusqay8f%2Fn3xCXikpJUcYkw%3D"
@@ -604,7 +604,7 @@
             <span class="absolute top-4 left-4 px-3 py-1 text-xs font-medium tracking-wide rounded-sm"
               style="background:var(--navy);color:#fff">Private Cruise</span>
           </div>
-          <div class="p-6">
+          <div class="p-6 flex flex-col grow">
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="text-[11px] px-2.5 py-1 rounded-sm"
                 style="background:var(--gold-soft);color:var(--gold)">Full-Time A/C</span>
@@ -615,7 +615,7 @@
             </div>
             <h3 class="font-serif text-xl font-medium mb-2" style="color:var(--navy)">Premium Set</h3>
             <p class="text-sm font-medium mb-3" style="color:var(--gold)">A Private Cruise Through the Canals</p>
-            <p class="text-sm leading-relaxed mb-5" style="color:var(--muted-light)">
+            <p class="text-sm leading-relaxed mb-5 grow" style="color:var(--muted-light)">
               For travellers who want to experience Alleppey from the water without an overnight stay, the Premium Set
               Ride offers a comfortable private cruise through the quieter canals. Settle into comfortable seating, take
               in uninterrupted views and enjoy the backwaters at an easy pace.
@@ -634,7 +634,7 @@
         </article>
 
         <!-- Package 2: Premium Shikkara -->
-        <article class="package-card reveal reveal-delay-2 rounded-sm overflow-hidden bg-white"
+        <article class="package-card reveal reveal-delay-2 rounded-sm overflow-hidden bg-white flex flex-col"!~
           style="box-shadow:0 2px 20px rgba(11,30,58,0.06)">
           <div class="relative overflow-hidden aspect-[4/3]">
             <img
@@ -644,7 +644,7 @@
             <span class="absolute top-4 left-4 px-3 py-1 text-xs font-medium tracking-wide rounded-sm"
               style="background:var(--gold);color:#fff">Intimate</span>
           </div>
-          <div class="p-6">
+          <div class="p-6 flex flex-col grow">
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="text-[11px] px-2.5 py-1 rounded-sm"
                 style="background:var(--gold-soft);color:var(--gold)">Full-Time A/C</span>
@@ -655,7 +655,7 @@
             </div>
             <h3 class="font-serif text-xl font-medium mb-2" style="color:var(--navy)">Premium Shikkara</h3>
             <p class="text-sm font-medium mb-3" style="color:var(--gold)">An Intimate Backwater Escape</p>
-            <p class="text-sm leading-relaxed mb-5" style="color:var(--muted-light)">
+            <p class="text-sm leading-relaxed mb-5 grow" style="color:var(--muted-light)">
               Ideal for couples and smaller groups, the Premium Shikkara Alleppey offers a more intimate way to explore
               Alleppey's waterways. Cruise through the canals in an air-conditioned setting, with plenty of opportunity
               to enjoy the scenery and spend uninterrupted time together.
@@ -675,7 +675,7 @@
 
         <!-- Package 3: Premium Cruiser -->
         <article
-          class="package-card reveal reveal-delay-3 rounded-sm overflow-hidden bg-white md:col-span-2 lg:col-span-1"
+          class="package-card reveal reveal-delay-3 rounded-sm overflow-hidden bg-white md:col-span-2 lg:col-span-1 flex flex-col"
           style="box-shadow:0 2px 20px rgba(11,30,58,0.06)">
           <div class="relative overflow-hidden aspect-[4/3]">
             <img
@@ -685,7 +685,7 @@
             <span class="absolute top-4 left-4 px-3 py-1 text-xs font-medium tracking-wide rounded-sm"
               style="background:var(--green-subtle);color:#fff">Relaxed</span>
           </div>
-          <div class="p-6">
+          <div class="p-6 flex flex-col grow">
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="text-[11px] px-2.5 py-1 rounded-sm"
                 style="background:var(--gold-soft);color:var(--gold)">Full-Time A/C</span>
@@ -696,7 +696,7 @@
             </div>
             <h3 class="font-serif text-xl font-medium mb-2" style="color:var(--navy)">Premium Cruiser</h3>
             <p class="text-sm font-medium mb-3" style="color:var(--gold)">A Relaxed Way to See the Backwaters</p>
-            <p class="text-sm leading-relaxed mb-5" style="color:var(--muted-light)">
+            <p class="text-sm leading-relaxed mb-5 grow" style="color:var(--muted-light)">
               The Premium Cruiser is suited to travellers who want a comfortable day on the water without committing to
               an overnight stay. Take in the changing scenery, watch local life unfold along the banks and enjoy a
               relaxed cruise through the backwaters.
@@ -1193,7 +1193,8 @@
           <div class="faq-content">
             <div class="faq-content-inner">
               <p class="faq-text pb-4 sm:pb-5 md:pb-6 leading-relaxed text-sm sm:text-base" style="color:var(--muted)">
-                A premium boat house in Alleppey typically offers better-maintained interiors, reliable air conditioning,
+                A premium boat house in Alleppey typically offers better-maintained interiors, reliable air
+                conditioning,
                 private attached bathrooms, comfortable bedrooms and more attentive onboard service. We assess these
                 details before recommending a boat to guests.
               </p>
@@ -1215,7 +1216,8 @@
           <div class="faq-content">
             <div class="faq-content-inner">
               <p class="faq-text pb-4 sm:pb-5 md:pb-6 leading-relaxed text-sm sm:text-base" style="color:var(--muted)">
-                Our boats range from options for couples to larger vessels that can accommodate groups of up to 20 across
+                Our boats range from options for couples to larger vessels that can accommodate groups of up to 20
+                across
                 multiple bedrooms. Tell us your group size and we'll help you find an option that works for your trip.
               </p>
             </div>
@@ -1236,7 +1238,8 @@
           <div class="faq-content">
             <div class="faq-content-inner">
               <p class="faq-text pb-4 sm:pb-5 md:pb-6 leading-relaxed text-sm sm:text-base" style="color:var(--muted)">
-                Yes. Meals are included in our overnight packages and are prepared on board. We offer vegetarian and vegan
+                Yes. Meals are included in our overnight packages and are prepared on board. We offer vegetarian and
+                vegan
                 options. We can also accommodate certain dietary requirements if you let us know in advance.
               </p>
             </div>
@@ -1257,7 +1260,8 @@
           <div class="faq-content">
             <div class="faq-content-inner">
               <p class="faq-text pb-4 sm:pb-5 md:pb-6 leading-relaxed text-sm sm:text-base" style="color:var(--muted)">
-                October to March is the most popular period, with cooler and generally drier weather. July to September is
+                October to March is the most popular period, with cooler and generally drier weather. July to September
+                is
                 quieter and can offer lower rates, although you should expect occasional rain.
               </p>
             </div>
@@ -1341,7 +1345,8 @@
           <div class="faq-content">
             <div class="faq-content-inner">
               <p class="faq-text pb-4 sm:pb-5 md:pb-6 leading-relaxed text-sm sm:text-base" style="color:var(--muted)">
-                Children are welcome on our boats. Pets are allowed on selected vessels, so let us know when enquiring and
+                Children are welcome on our boats. Pets are allowed on selected vessels, so let us know when enquiring
+                and
                 we'll confirm which options are suitable.
               </p>
             </div>
